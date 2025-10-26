@@ -1,0 +1,5 @@
+head,relation,tail
+Aspirin,INHIBITS,COX-2
+BRCA1,ASSOCIATED_WITH,Breast Cancer
+Ibuprofen,INHIBITS,COX-1
+TP53,ASSOCIATED_WITH,Lung Cancer

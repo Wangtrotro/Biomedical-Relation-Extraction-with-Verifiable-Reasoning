@@ -1,0 +1,11 @@
+任务：从以下生物医学文本中抽取关系并解释推理过程。
+输出格式必须为 JSON，包含以下字段：
+{
+  "head": "...",
+  "relation": "...",
+  "tail": "...",
+  "evidence": "...",
+  "reasoning_trace": ["Step1: ...", "Step2: ...", "Step3: ..."]
+}
+文本：{input_text}
+输出：

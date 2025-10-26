@@ -1,0 +1,5 @@
+{
+  "input": "Aspirin reduces inflammation by inhibiting COX-2 enzyme.",
+  "model_output": "\n任务：从以下生物医学文本中抽取关系并解释推理过程。\n输出格式必须为 JSON，包含以下字段：\n{\n  \"head\": \"...\",\n  \"relation\": \"...\",\n  \"tail\": \"...\",\n  \"evidence\": \"...\",\n  \"reasoning_trace\": [\"Step1: ...\", \"Step2: ...\"]\n}\n文本：Aspirin reduces inflammation by inhibiting COX-2 enzyme.\n输出：\n [¹ ² -NalTry:... \"].",
+  "verification": "⚠️ 未在知识库中找到匹配关系 (... --...--> ...)。"
+}
